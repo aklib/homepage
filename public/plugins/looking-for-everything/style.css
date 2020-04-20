@@ -1,0 +1,11 @@
+
+canvas {
+  position: absolute;
+  bottom: 25px;
+  right: 0;
+  /*box-shadow: 0 0 2px #111;*/
+  border-radius: calc( 50% - 250px );
+}
+section {
+    position: relative;
+}

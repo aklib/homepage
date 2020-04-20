@@ -1,0 +1,1 @@
+msgfmt en_US.po -o en_US.mo

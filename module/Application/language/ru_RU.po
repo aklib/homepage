@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Influnique\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-05 22:17-0700\n"
+"PO-Revision-Date: 2018-07-13 12:51+0200\n"
+"Last-Translator: Rob Allen <rob@akrabat.com>\n"
+"Language-Team: Influnique\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+msgid "File"
+msgstr ""
+
+msgid "Stack trace"
+msgstr ""
+
+msgid "Previous exceptions"
+msgstr "Предыдущие исключения"
+
+msgid "No Exception available"
+msgstr "Исключений нет"
+
+msgid "An error occurred"
+msgstr "Произошла ошибка"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Alexej Kisselev"
+msgstr "Алексей Киселёв"
+
+msgid "Über mich"
+msgstr "Обо мне"
+
+msgid "Kompetenz"
+msgstr "Компетенция"
+
+msgid "Berufserfahrung"
+msgstr "Опыт работы"
+
+msgid "Ausbildung"
+msgstr "Образование"
+
+msgid "Ich bin"
+msgstr "Я - "
+
+msgid "Softwareentwickler"
+msgstr "разработчик ПО"
+
+msgid "Staatlich geprüfter Informatiker"
+msgstr "сертифицированный специалист по информатике"
+
+msgid "Diplom-Ingenieur (FH/BY)"
+msgstr "дипломированный инженер"
+
+msgid "Download CV"
+msgstr "Скачать резюме (de)"
+
+msgid "Ich bin leidenschaftlicher"
+msgstr "Я заядлый"
+
+msgid "Programmierer"
+msgstr "Программист"
+
+msgid "Radiotechnische Fachhochschule Minsk"
+msgstr "Минский радиотехнический институт"
+
+msgid "Studium der Ingenieur-Elektrik"
+msgstr "Инженер электронщик"
+
+msgid "Schwerpunkte"
+msgstr "Ключевые направления"
+
+msgid "Produktionsautomatisierung, Automatik und Telemecanique, Produktionsroboter"
+msgstr "Автоматика и телемеханика, производственные роботы"
+
+msgid "Abschluss"
+msgstr "Диплом"
+
+msgid "Adresse"
+msgstr "Адрес"
+
+msgid "Deutschland, Köln"
+msgstr "Германия, Кёльн"
+
+msgid "Alter"
+msgstr "Возраст"
+
+msgid "Jahre"
+msgstr "лет"
+
+msgid "Geburtsort"
+msgstr "Место рождения"
+
+msgid "Minsk, Weißrussland, UdSSR"
+msgstr "Минск, Беларусь, СССР"
+
+msgid "Sprachen"
+msgstr "Языки"
+
+msgid "#about competence"
+msgstr "Как инженер-программист с более чем четырнадцатилетним опытом, я предлагаю обширную экспертизу в разработке веб-приложений на PHP и Java. Опыт работы на всех этапах цикла разработки динамических веб-проектов"
+
+msgid "#service competence"
+msgstr "Концепция, реализация и внедрение проектов в области комплексного управления информацией о продуктах (PIM) и управления медиа-активами (MAM) - моя основная компетенция"
+
+msgid "#service php"
+msgstr "Разработка сложных бэкэндов на основе Zend Framework 2/3 и Doctrine ORM-Framework с Apache Webserver и поисковой системой Elasticsearch"
+
+msgid "#service java"
+msgstr "Разработка комплексной бизнес-логики на основе инструмента управления сборкой Maven и фреймворка Hibernate ORM с сервером приложений Tomcat и поисковой системой Elasticsearch"
+
+msgid "#service sql"
+msgstr "Разработка последовательных реляционных баз данных MySQL/-PostgreSQL для обеспечения безошибочной работы с данными. Запросы к базе данных быстро приводят к цели"
+
+msgid "#service oop"
+msgstr "Моя парадигма - объектно&nbsp;ориентированное программирование&nbsp;(&nbsp;OOP&nbsp;). Гибкость и возможность повторного использования модулей, классов и методов экономит время и снижает затраты на разработку"
+
+msgid "#service security"
+msgstr "Реализация таких защитных мер, как серверная валидация данных форм, <q>prepared statements</q> против SQL-injection, escape-функции против HTML-injection и многое другое"
+
+msgid "#service code"
+msgstr "Такие практики, как <q>Clean Code</q> и статический анализ, позволяют писать практически безошибочный код с меньшими затратами. Благодаря качеству кода значительно легче работать в команде разработчиков"
+
+msgid "#home bg"
+msgstr "Шварцвальд, канун Нового 2020 года"
+
+msgid "gehören dazu"
+msgstr "прилагаются"
+
+msgid "Chef, schnell oder gut"
+msgstr "Босс, быстро или хорошо"
+
+msgid "Familienphase"
+msgstr "Семейный этап"
+
+msgid "Softwarearchitektur, Design und Konzeption eines PIM (Product&nbsp;Information&nbsp;Management) mit MAM/DAM (Media/Data Asset Management) und mehreren APIs"
+msgstr "Архитектура программного обеспечения, дизайн и концепция PIM (Product&nbsp;Information&nbsp;Management) с MAM/DAM (Media/Data Asset Management) и несколькими API"
+
+msgid "Softwarearchitektur, Design und Konzeption von WEB-Anwendungen"
+msgstr "Архитектура программного обеспечения, дизайн и концепция WEB-приложений"
+
+msgid "Datenbankdesign und -tuning"
+msgstr "Дизайн и тюнинг баз данных"
+
+msgid "Einsatz von OOP zur schnelleren Programmierung von WEB-Seiten"
+msgstr "Применение ООП для более оперативного программирования WEB-страниц"
+
+msgid "Analyse, Design und Konzeption verteilter Anwendungen (Webentwicklung/ Mobile Applikationen)"
+msgstr "Анализ, дизайн и концепция разветвленных приложений (веб-разработка / мобильные приложения)"
+
+msgid "Datenbankdesign und -Tuning"
+msgstr "Дизайн и тюнинг баз данных"
+
+msgid "Datenbankentwickler"
+msgstr "Разработчик баз данных"
+
+msgid "Evangelischer Fachverband Schuldnerberatung"
+msgstr "Профессиональная евангельская ассоциация по консультированию по вопросам задолженности"
+
+msgid "Access-Datenbank Tuning"
+msgstr "Тюнинг баз данных MS Access"
+
+msgid "Weiterbildung"
+msgstr "Дальнейшее обучение"
+
+msgid "Bildungszentrum für Informationsverarbeitende Berufe"
+msgstr "Учебный центр по профессиям, связанным с обработкой информации"
+
+msgid "Weiterbildung zum Staatlich geprüften Informatiker"
+msgstr "Повышение квалификации для получения государственного сертификата специалиста по вычислительной технике"
+
+msgid "Staatlich geprüfter Informatiker, Fachrichtung Softwaretechnologie"
+msgstr "Государственный сертифицированный специалист в области компьютерных технологий, специализирующийся на технологиях программного обеспечения"
+
+msgid "Sprachkurs Deutsch"
+msgstr "Курс немецкого языка"
+
+msgid "Berlitz Sprachschule Wuppertal"
+msgstr "Языковой центр 'Berlitz' в Вуппертале"
+
+msgid "Übersiedlung nach Deutschland und Integrationsphase mit Sprachkurs Deutsch"
+msgstr "Переезд в Германию и этап интеграции с курсом немецкого языка"
+
+msgid "Studium"
+msgstr "Высшее образование"
+
+msgid "Hobbys &amp; Interessen"
+msgstr "Хобби &amp; интересы"
+
+msgid "Programmierer sind auch nur Menschen"
+msgstr "Программисты тоже люди"
+
+msgid "Programmierung"
+msgstr "Программирование"
+
+msgid "Kino"
+msgstr "Кино"
+
+msgid "Kaffee"
+msgstr "Кофе"
+
+msgid "Sports"
+msgstr "Спорт"
+
+msgid "Geschichte"
+msgstr "История"
+
+msgid "Haustiere"
+msgstr "Домашние животные"
+
+msgid "Politik"
+msgstr "Политика"
+
+msgid "Waffensysteme"
+msgstr "Оружейные системы"
+
+msgid "Seit"
+msgstr "с"
+
+msgid "deutsch"
+msgstr "немецкий"
+
+msgid "russisch"
+msgstr "русский"
+
+msgid "english"
+msgstr "английский"
+
+msgid "Softwarearchitektur, Design und Konzeption eines PIM (Product Information Management) mit MAM/DAM (Media/Data Asset Management) und mehreren APIs"
+msgstr "Архитектура программного обеспечения, дизайн и концепция PIM (Product Information Management) с MAM/DAM (Media/Data Asset Management) и несколькими API"
+
+msgid "Literatur"
+msgstr "Литература"
+

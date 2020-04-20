@@ -1,0 +1,99 @@
+/* 
+    Created on : 14.04.2020, 13:06:09
+    Author     : alex
+*/
+/*background notice and go google map*/
+#home .bg-description {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    z-index: 1;
+    opacity: 0.5;
+    font-size: 0.7rem;
+    transition: all 0.5s ease; 
+}
+
+#home .bg-description:hover {
+    opacity: 1;
+}
+#home .bg-description a {
+    transition: all 0.5s ease; 
+    position: relative;
+}
+
+#home .bg-description:hover a:after{
+    position: absolute;
+    top: -0.5rem;
+    right: -0.6rem;
+    font-family: "Material Design Icons";
+    content: '\f3cc';
+}
+.title-heading .heading {
+    font-weight: 600;
+}
+
+/*remove border for life cycle image*/
+.about-hero::before {
+    border-width: 0;
+}
+/*remove section title decoration*/
+.section-title .titles::after, .section-title .titles::before {    
+    width: 0px;
+    height: 0px;    
+}
+/*wider for german language*/
+.about-info .about-list .list-title {
+    max-width: 170px;    
+}
+/*equal height of boxes in services section*/
+.service-wrapper {
+    height: 100%;
+}
+/*for dark backgrounds only!*/
+nav:not(.nav-sticky) .navbar-nav.navbar-nav-link .nav-item .nav-link {
+    color: #f8f9fa;
+}
+
+nav:not(.nav-sticky).navbar-custom .social-icon li a {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.dropdown-menu {
+    font-size: 0.8rem;
+}
+
+/*resume and education texts*/
+.timeline-item p.timeline-subtitle {
+    text-align: justify;
+    position: relative;
+    margin-top: 0;
+}
+.timeline-item p.timeline-subtitle::before {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    background: white;
+    position: absolute;
+    top: 0.6rem;
+    left: -0.6rem;
+    content: "";
+    transition: all 0.5s ease;    
+}
+.timeline-item .event:hover p.timeline-subtitle::before {
+    background: #f89d36;
+}
+/*section shado*/
+.section {   
+    box-shadow: 0 .5rem 0.5rem rgba(0,0,0,.10) !important;   
+    position: relative;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+.main-icon i {
+    display: inline-block;    
+}
+
+
+

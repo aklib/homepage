@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Influnique\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-05 22:17-0700\n"
+"PO-Revision-Date: 2018-07-13 12:51+0200\n"
+"Last-Translator: Rob Allen <rob@akrabat.com>\n"
+"Language-Team: Influnique\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "An error occurred"
+msgstr ""
+
+msgid "Additional information"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Stack trace"
+msgstr ""
+
+msgid "Previous exceptions"
+msgstr ""
+
+msgid "No Exception available"
+msgstr ""
+
+msgid "Alexej Kisselev"
+msgstr "Alexey Kisselev"
+
+msgid "Über mich"
+msgstr "About"
+
+msgid "Kompetenz"
+msgstr "Competence"
+
+msgid "Berufserfahrung"
+msgstr "Experience"
+
+msgid "Ausbildung"
+msgstr "Education"
+
+msgid "Ich bin"
+msgstr "I'm"
+
+msgid "Softwareentwickler"
+msgstr "Software developer"
+
+msgid "Staatlich geprüfter Informatiker"
+msgstr "State-certified computer scientist"
+
+msgid "Diplom-Ingenieur (FH/BY)"
+msgstr "Graduate engineer (FH/BY)"
+
+msgid "Download CV"
+msgstr "Download CV (de)"
+
+msgid "Ich bin leidenschaftlicher"
+msgstr "I'm Passionate"
+
+msgid "Programmierer"
+msgstr "Programmer"
+
+msgid "Radiotechnische Fachhochschule Minsk"
+msgstr "Minsk Radiotechnical University of Applied Sciences"
+
+msgid "Studium der Ingenieur-Elektrik"
+msgstr "Study of electrical engineering"
+
+msgid "Schwerpunkte"
+msgstr "Main focus"
+
+msgid "Produktionsautomatisierung, Automatik und Telemecanique, Produktionsroboter"
+msgstr "Production automation, automation and telemecanique, production robots"
+
+msgid "Abschluss"
+msgstr "Completion"
+
+msgid "Adresse"
+msgstr "Address"
+
+msgid "Deutschland, Köln"
+msgstr "Germany, Cologne"
+
+msgid "Alter"
+msgstr "Age"
+
+msgid "Jahre"
+msgstr "years"
+
+msgid "Geburtsort"
+msgstr "Place of birth"
+
+msgid "Minsk, Weißrussland, UdSSR"
+msgstr "Minsk, Belarus, USSR"
+
+msgid "Sprachen"
+msgstr "Languages"
+
+msgid "#about competence"
+msgstr "As a software engineer with over fourteen years of experience, I offer extensive expertise in the development of web applications in PHP and Java. Experienced with all phases of the development cycle for dynamic web projects"
+
+msgid "#service competence"
+msgstr "Conception, implementation and realisation of projects in complex Product Information Management&nbsp;(&nbsp;PIM&nbsp;) and in Media Asset Management&nbsp;(&nbsp;MAM&nbsp;) is my core competence"
+
+msgid "#service php"
+msgstr "Development of complex backends based on Zend Framework 2/3 and Doctrine ORM-Framework with the Apache Webserver and Elasticsearch search engine"
+
+msgid "#service java"
+msgstr "Development of complex business logic based on Maven build management tool and Hibernate ORM framework with the Tomcat application server and Elasticsearch search engine"
+
+msgid "#service sql"
+msgstr "Develop consistent MySQL/-PostgreSQL relational databases to ensure error-free data delivery. Database queries lead quickly to the goal"
+
+msgid "#service oop"
+msgstr "My programming paradigm is Object Oriented Programming&nbsp;(&nbsp;OOP&nbsp;). The flexibility and reusability of modules, classes and methods saves time and reduces development costs"
+
+msgid "#service security"
+msgstr "Implementation of protective measures such as server-side validation of form data, <q>prepared statements</q> against SQL injection, escape functions against HTML injection and much more"
+
+msgid "#service code"
+msgstr "Practices such as <q>Clean Code</q> and static analysis allow you to write virtually error-free code with less effort. Code quality makes it much easier to work together in a development team"
+
+msgid "#home bg"
+msgstr "Black Forest, New Year's Eve 2019-2020"
+
+msgid "gehören dazu"
+msgstr "are included"
+
+msgid "Chef, schnell oder gut"
+msgstr "Boss, fast or good"
+
+msgid "Familienphase"
+msgstr "Family phase"
+
+msgid "Softwarearchitektur, Design und Konzeption eines PIM (Product&nbsp;Information&nbsp;Management) mit MAM/DAM (Media/Data Asset Management) und mehreren APIs"
+msgstr "Software architecture, design and conception of a PIM (Product&nbsp;Information&nbsp;Management) with MAM/DAM (Media/Data Asset Management) and several APIs"
+
+msgid "Softwarearchitektur, Design und Konzeption von WEB-Anwendungen"
+msgstr "Software architecture, design and conception of WEB applications"
+
+msgid "Datenbankdesign und -tuning"
+msgstr "Database design and tuning"
+
+msgid "Einsatz von OOP zur schnelleren Programmierung von WEB-Seiten"
+msgstr "Use of OOP for faster programming of WEB pages"
+
+msgid "Analyse, Design und Konzeption verteilter Anwendungen (Webentwicklung/ Mobile Applikationen)"
+msgstr "Analysis, design and conception of distributed applications (web development / mobile applications"
+
+msgid "Datenbankdesign und -Tuning"
+msgstr "Database design and tuning"
+
+msgid "Datenbankentwickler"
+msgstr "Database developer"
+
+msgid "Evangelischer Fachverband Schuldnerberatung"
+msgstr "Evangelical professional association for debt counselling"
+
+msgid "Access-Datenbank Tuning"
+msgstr "Access database Tuning"
+
+msgid "Weiterbildung"
+msgstr "Further training"
+
+msgid "Bildungszentrum für Informationsverarbeitende Berufe"
+msgstr "Training Centre for Information Processing Professions"
+
+msgid "Weiterbildung zum Staatlich geprüften Informatiker"
+msgstr "Further training to become a state-certified computer scientist"
+
+msgid "Staatlich geprüfter Informatiker, Fachrichtung Softwaretechnologie"
+msgstr "State-certified computer scientist, specialising in software technology"
+
+msgid "Sprachkurs Deutsch"
+msgstr "German language course"
+
+msgid "Berlitz Sprachschule Wuppertal"
+msgstr "Wuppertal Berlitz language center"
+
+msgid "Übersiedlung nach Deutschland und Integrationsphase mit Sprachkurs Deutsch"
+msgstr "Relocation to Germany and integration phase with German language course"
+
+msgid "Studium"
+msgstr "Study"
+
+msgid "Hobbys &amp; Interessen"
+msgstr "Hobbies &amp; interests"
+
+msgid "Programmierer sind auch nur Menschen"
+msgstr "Programmers are also just people"
+
+msgid "Programmierung"
+msgstr "Programming"
+
+msgid "Kino"
+msgstr "Cinema"
+
+msgid "Kaffee"
+msgstr "Coffee"
+
+msgid "Sports"
+msgstr "Sport"
+
+msgid "Geschichte"
+msgstr "History"
+
+msgid "Haustiere"
+msgstr "Pets"
+
+msgid "Politik"
+msgstr "Politic"
+
+msgid "Waffensysteme"
+msgstr "Weaponry"
+
+msgid "Seit"
+msgstr "From"
+
+msgid "deutsch"
+msgstr "german"
+
+msgid "russish"
+msgstr "russian"
+
+msgid "Softwarearchitektur, Design und Konzeption eines PIM (Product Information Management) mit MAM/DAM (Media/Data Asset Management) und mehreren APIs"
+msgstr "Software architecture, design and conception of a PIM (Product Information Management) with MAM/DAM (Media/Data Asset Management) and several APIs"
+
+msgid "Literatur"
+msgstr "Literature"
+
