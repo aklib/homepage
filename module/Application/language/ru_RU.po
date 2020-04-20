@@ -52,7 +52,7 @@ msgid "Ausbildung"
 msgstr "Образование"
 
 msgid "Ich bin"
-msgstr "Я - "
+msgstr "&nbsp;"
 
 msgid "Softwareentwickler"
 msgstr "разработчик ПО"
