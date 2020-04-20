@@ -16,3 +16,4 @@ phpunit.xml
 /COPYRIGHT.md
 /Dockerfile
 /README.md
+/data/
