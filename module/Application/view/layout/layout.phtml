@@ -5,13 +5,14 @@
  * @since 14.04.2020
  * @author Alexej Kisselev <alexej.kisselev@gmail.com>
  */
-$currentLanguage = $this->params('language');
+/* array locale => name*/
 $availableLanguages = $this->getServiceManager()->get('Config')['translator']['available'];
-
+/* current language like de, en etc. */
+$currentLanguage = substr($this->getServiceManager()->get('translator')->getLocale(), 0, 2);
 ?>
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="<?= $currentLanguage ?>">
     <head>
         <meta charset="utf-8" />
         <title><?= $this->translate('Alexej Kisselev') ?> - <?= $this->translate('Homepage') ?></title>
