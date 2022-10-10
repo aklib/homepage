@@ -1,0 +1,29 @@
+<?php
+/**
+ * wiki.phtml
+ * 
+ * @since 21.04.2020
+ * @author Alexej Kisselev <alexej.kisselev@gmail.com>
+ */
+$result = $this->result;
+?>
+<div class="wiki text-muted">
+    <div class="wiki-logo" style="float: left">
+        <img src="/images/wikipedia-logo.svg" alt="wiki-logo" style="height: 2rem;">
+    </div>
+    <?php if (empty($result)): ?>
+    </div>
+    <?php
+    return;
+endif;
+if (!empty($result['title'])):
+    ?>
+    <h6 class="text-muted text-right"><?= $result['title'] ?></h6>
+<?php
+endif;
+
+if (!empty($result['snippet'])):
+    ?>
+    <p class="text-muted"><?= $result['snippet'] ?>...</p>
+<?php endif; ?>
+

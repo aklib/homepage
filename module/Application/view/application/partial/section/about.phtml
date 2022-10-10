@@ -7,14 +7,21 @@
  */
 $date1 = new \DateTime('1964-04-22'); //Geburtsdatum
 $now = new \DateTime(date('Y') .
-        '-' . date('m') . 
+        '-' . date('m') .
         '-' . date('d'));
 $interval = $now->diff($date1);
 $age = $interval->format('%Y');
 ?>
+
 <!-- About Start -->
 <section class="section" id="about">
     <div class="container">
+        <div class="tooltip bs-tooltip-top" role="tooltip" style="background-color: red">
+            <div class="arrow"></div>
+            <div class="tooltip-inner">
+                Some tooltip text!
+            </div>
+        </div>
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-5">
                 <div class="about-hero">
@@ -29,10 +36,10 @@ $age = $interval->format('%Y');
                     <p class="text-muted"><?= $this->translate('#about competence') ?>.</p>
                     <div class="about-list">
                         <ul class="list-unstyled"> 
-                            <li><span class="list-title list-inline-item">E-Mail : </span> <span> alexej@kisselev.de </span></li>
-                            <li><span class="list-title list-inline-item"><?= $this->translate('Adresse') ?> : </span> <span> <?= $this->translate('Deutschland, Köln') ?> </span></li>
-                            <li><span class="list-title list-inline-item"><?= $this->translate('Alter') ?> : </span> <span> <?= $age ?> <?= $this->translate('Jahre') ?></span></li>
-                            <li><span class="list-title list-inline-item"><?= $this->translate('Geburtsort') ?> : </span> <span> <?= $this->translate('Minsk, Weißrussland, UdSSR') ?> </span></li>                                                        
+                            <li><span class="list-title list-inline-item">E-Mail&nbsp;: </span> <a href="mailto:alexej@kisselev.de?subject=<?= $this->translate('Homepage_Contact') ?>">alexej@kisselev.de</a></li>
+                            <li><span class="list-title list-inline-item"><?= $this->translate('Adresse') ?>&nbsp;: </span> <span> <?= $this->translate('Deutschland, Köln') ?> </span></li>
+                            <li><span class="list-title list-inline-item"><?= $this->translate('Alter') ?>&nbsp;: </span> <span> <?= $age ?> <?= $this->translate('Jahre') ?></span></li>
+                            <li><span class="list-title list-inline-item"><?= $this->translate('Geburtsort') ?>&nbsp;: </span> <span> <?= $this->translate('Minsk, Weißrussland, UdSSR') ?> </span></li>                                                        
                             <li>
                                 <div class="row row-eq-height">
                                     <div class="col-3">
@@ -43,15 +50,15 @@ $age = $interval->format('%Y');
                                             <small class="text-muted"><?= $this->translate('deutsch') ?></small>
                                             <div class="progress">
                                                 <div class="progress-bar position-relative bg-custom" style="width:85%;">
-                                                    <div class="progress-value d-block text-muted h6">85%</div>
+                                                    <div class="progress-value d-block text-muted h6 progress-value-85">85%</div>
                                                 </div>
                                             </div>
                                         </div><!--end process box-->
                                         <div class="progress-box pt-2">
                                             <small class="text-muted"><?= $this->translate('english') ?></small>
                                             <div class="progress">
-                                                <div class="progress-bar position-relative bg-custom" style="width:25%;">
-                                                    <div class="progress-value d-block text-muted h6">25%</div>
+                                                <div class="progress-bar position-relative bg-custom" style="width:50%;">
+                                                    <div class="progress-value d-block text-muted h6 progress-value-25">50%</div>
                                                 </div>
                                             </div>
                                         </div><!--end process box-->
@@ -59,7 +66,7 @@ $age = $interval->format('%Y');
                                             <small class="text-muted"><?= $this->translate('russisch') ?></small>
                                             <div class="progress">
                                                 <div class="progress-bar position-relative bg-custom" style="width:100%;">
-                                                    <div class="progress-value d-block text-muted h6">100%</div>
+                                                    <div class="progress-value d-block text-muted h6  progress-value-100">100%</div>
                                                 </div>
                                             </div>
                                         </div><!--end process box-->
@@ -68,14 +75,14 @@ $age = $interval->format('%Y');
                             </li>
                         </ul>
                     </div>
-<!--                    <div class="mt-5">
-                        <a href="#services" class="btn btn-pill btn-custom mouse-down">Was ich anbiete</a>
-                    </div>-->
+                    <!--                    <div class="mt-5">
+                                            <a href="#services" class="btn btn-pill btn-custom mouse-down">Was ich anbiete</a>
+                                        </div>-->
                 </div>
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
 
-    
+
 </section><!--end section-->
 <!-- About End -->

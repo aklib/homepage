@@ -5,18 +5,24 @@
  * @since 14.04.2020
  * @author Alexej Kisselev <alexej.kisselev@gmail.com>
  */
-//echo $this->translate('Stack trace');
+/* current language like de, en etc. */
+$currentLanguage = $this->getServiceManager()->get('translator')->getLocale();
 ?>
 
 <!-- HOME START-->
-<section class="bg-home d-flex align-items-center" style="background-image:url('/images/bg/schwarzwald.jpg')" id="home">
+<section class="bg-home d-flex align-items-center" id="home">
     <div class="bg-description">
         <a href="https://www.google.com/maps/dir/Notschrei,+79254+Todtnau/47.8834315,7.8870241/@47.8814907,7.8862784,3060m/data=!3m1!1e3!4m10!4m9!1m5!1m1!1s0x4790fe1d1d0e189b:0x2e58deeef6124d3a!2m2!1d7.9108751!2d47.8756127!1m0!3e2!5i1" target="_blank">
             <?= $this->translate('#home bg') ?>
             <!--<i class="mdi mdi-open-in-new"></i>-->
         </a>
     </div>
-    <!--<canvas id=c></canvas>-->
+    <div class="bg-web">
+        <img src="/images/bg/spider-web-1000.png" alt="spider-web">
+    </div>
+
+
+<!--<canvas id=c></canvas>-->
     <div class="container">        
         <div class="row justify-content-center">
             <div class="col-lg-12 text-center">
@@ -24,9 +30,11 @@
                     <img src="/images/me_500_square_black.jpg" class="img-fluid rounded-pill person" alt="">
                     <h1 class="heading text-custom mt-3"><?= $this->translate('Alexej Kisselev') ?></h1>
                     <h3 class="sub-title text-light"><?= $this->translate('Ich bin') ?> <span class="element text-custom" data-elements="<?= $this->translate('Softwareentwickler') ?>, <?= $this->translate('Staatlich geprüfter Informatiker') ?>, <?= $this->translate('Diplom-Ingenieur (FH/BY)') ?>"></span></h3>
-                    <div class="mt-4">
-                        <a href="/downloads/bewerbungsunterlagen.zip" target="_blank" class="btn btn-pill btn-custom"><?= $this->translate('Download CV') ?> <i class="mdi mdi-download"></i></a>
-                    </div>
+                    <?php if ($currentLanguage === 'de'): ?>
+                        <div class="mt-4">
+                            <a href="/downloads/anschreiben.pdf" target="_blank" class="btn btn-pill btn-custom"><?= $this->translate('Covering Letter') ?> <i class="mdi mdi-download"></i></a>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div><!--end col-->
         </div><!--end row-->

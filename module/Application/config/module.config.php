@@ -11,9 +11,10 @@ namespace Application;
 
 use Laminas\Router\Http\Segment;
 use Laminas\ServiceManager\Factory\InvokableFactory;
+use Application\Controller\Plugin\Translate;
 
 return [
-    'router'       => [
+    'router'             => [
         'routes' => [
             'home' => [
                 'type'    => Segment::class,
@@ -26,15 +27,29 @@ return [
                     ],
                 ],
             ],
+            'wiki' => [
+                'type'    => Segment::class,
+                'options' => [
+                    'route'    => '/wiki[/:language]',
+                    'defaults' => [
+                        'controller' => Controller\IndexController::class,
+                        'action'     => 'wiki',
+                        'language'   => 'de',
+                    ],
+                ],
+            ],
         ],
     ],
-    'translator'   => [
-        'locale'                    => 'de_DE',
+    'translator'         => [
+        'locale'                    => 'de',
         'available'                 => [
-            'en_US' => 'english',
-            'de_DE' => 'deutsch',
-            'ru_RU' => 'russisch',
+            'en' => 'english',
+            'de' => 'deutsch',
+            'ru' => 'russisch',
         ],
+        'queries'                   => ['OOP', 'MAM', 'DAM', 'PIM', 'Maven', 'Hibernate', 'Zend Framework',
+            'Doctrine','HTML5', 'HTML', 'XHTML','CSS3', 'CSS', 'Javascript', 'JQuery',
+            'API', 'MySQL', 'PostgreSQL', 'FreeBSD', 'SQLite', 'Elasticsearch','Access-Datenbank'],
         'translation_file_patterns' => [
             [
                 'type'     => 'gettext',
@@ -44,12 +59,20 @@ return [
         ],
         'event_manager_enabled'     => true
     ],
-    'controllers'  => [
+    'controllers'        => [
         'factories' => [
             Controller\IndexController::class => InvokableFactory::class,
         ],
     ],
-    'view_manager' => [
+    'controller_plugins' => [
+         'invokables' => [
+            'translate' => Translate::class,
+        ],        
+        'aliases'   => [
+            'wiki' => Controller\Plugin\Wiki::class,
+        ]
+    ],
+    'view_manager'       => [
         'display_not_found_reason' => true,
         'display_exceptions'       => true,
         'doctype'                  => 'HTML5',

@@ -3,6 +3,26 @@
     Author     : alex
 */
 /*background notice and go google map*/
+.bg-home {
+    background-image: url('/images/bg/schwarzwald.jpg');
+    /*    background-position: bottom right, center center;
+        background-size: 25%, 100%;
+        background-repeat: no-repeat;*/
+}
+.bg-web {
+    width: 25%; 
+    height: 25%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.bg-web img {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.5;
+}
 #home .bg-description {
     position: absolute;
     bottom: 60px;
@@ -16,18 +36,22 @@
 #home .bg-description:hover {
     opacity: 1;
 }
-#home .bg-description a {
+#home .bg-description a, .open-new-window {
     transition: all 0.5s ease; 
     position: relative;
 }
 
-#home .bg-description:hover a:after{
+#home .bg-description:hover a:after, .open-new-window:after {
     position: absolute;
     top: -0.5rem;
     right: -0.6rem;
     font-family: "Material Design Icons";
     content: '\f3cc';
 }
+.tooltip-link {
+    position: relative;
+}
+
 .title-heading .heading {
     font-weight: 600;
 }
@@ -43,8 +67,24 @@
 }
 /*wider for german language*/
 .about-info .about-list .list-title {
-    max-width: 170px;    
+    max-width: 25%;  
+    line-height: 1rem;
+    padding-right: 1rem;
 }
+
+.progress-box .progress .progress-value {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+56&0+0,1+42 */
+    background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 70%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 42%,rgba(255,255,255,1) 70%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 42%,rgba(255,255,255,1) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
+.progress-box .progress .progress-value.progress-value-25 {
+    right: -70px;
+}
+
 /*equal height of boxes in services section*/
 .service-wrapper {
     height: 100%;
@@ -94,6 +134,29 @@ nav:not(.nav-sticky).navbar-custom .social-icon li a {
 .main-icon i {
     display: inline-block;    
 }
+div.tooltip {
+    transition: opacity 0.5s ease;   
+}
+/*wikipedia icon on hover*/
+/*.tooltip-link:hover:after {
+    position: absolute;
+    top: -0.8rem;
+    right: -0.4rem;
+    font-family: "Material Design Icons";
+    content: '\f5ac';
+    color: #707070;
+}*/
+.tooltip .arrow:before {
+    border-top-color: white;
+}
+.tooltip .tooltip-inner {
+    background-color: #fff;
+    text-align: left;
+    max-width: 300px;
+    height: auto;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
 
 
 

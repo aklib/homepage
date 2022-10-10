@@ -17,3 +17,4 @@ phpunit.xml
 /Dockerfile
 /README.md
 /data/
+/docker/

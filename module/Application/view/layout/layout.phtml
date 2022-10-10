@@ -8,7 +8,7 @@
 /* array locale => name*/
 $availableLanguages = $this->getServiceManager()->get('Config')['translator']['available'];
 /* current language like de, en etc. */
-$currentLanguage = substr($this->getServiceManager()->get('translator')->getLocale(), 0, 2);
+$currentLanguage = $this->getServiceManager()->get('translator')->getLocale();
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +32,7 @@ $currentLanguage = substr($this->getServiceManager()->get('translator')->getLoca
         <link href="/css/custom.css" rel="stylesheet" type="text/css" />
     </head>
 
-    <body>
+    <body id="lang-<?= $currentLanguage ?>">
         <!-- Loader Start -->
         <div id="preloader">
             <div id="status">
@@ -107,14 +107,14 @@ $currentLanguage = substr($this->getServiceManager()->get('translator')->getLoca
         <!-- Navbar End -->
 
         <?= $this->content ?>
-
+        
         <!-- Footer Start -->
         <footer class="footer bg-dark">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <!--                        <a href="#">
-                                                    <img src="images/logo-light.png" height="20" alt="">
+<!--                                                <a href="#">
+                                                    <img src="/images/logo.png" height="20" alt="">
                                                 </a>-->
                         <h4 class="title text-center mb-3"><?= $this->translate('Alexej Kisselev') ?></h4>
                         <p class="para-desc mx-auto mt-4"><?= $this->translate('Softwareentwickler') ?></p>
